@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CR7 - Oficial</title>
+    <link rel="icon" href="img/logo_cr7.jpg" type="image/png">
+    <link rel="stylesheet" href="./css/madrid.css">
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap">
+
+</head>
+
+<body onclick="PlayAdio()">
+    <nav>
+        <div class="logo">CR7</div>
+        <label for="btn" class="icon">
+            <img class="menulog" src="./img/menu/icons8-menú-50.png" alt="menu--v6" />
+        </label>
+        <input type="checkbox" id="btn">
+        <ul>
+            <li>
+                <label for="2" class="show"><a href="#">Inicio</a></label>
+                <a href="#" class="">Inicio</a>
+              </li>
+              <li>
+            <li>
+                <label for="btn-2" class="show"><a href="./galeria.html">Galeria</a></label>
+                <a href="./galeria.html" class="">Galeria</a>
+                <input type="checkbox" id="btn-2">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="./img/menu/man.png" class="escu" alt="Man">
+                            <span class="text">Manchester</span>
+                        </a>
+                    </li>
+                    <li>
+                        <label for="btn-3" class="show"> <img src="./img/menu/real.png" class="escud" alt="Real">Real
+                            Madrid</label>
+                        <a href="./Madrid.html">
+                            <img src="./img/menu/real.png" class="escu" alt="Real">
+                            <span class="text">Real Madrid</span>
+                        </a>
+                        <input type="checkbox" id="btn-3">
+                        <ul>
+                            <li>
+                                <a href="./ULC.html">
+                                    <img src="./img/menu/champions.png" class="escu" alt="Champions">
+                                    <span class="text">UCL</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./img/menu/laliga.png" class="escu" alt="La liga">
+                                    <span class="text">La Liga</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <label for="2" class="show"><a href="#">Iniciar Sesión</a></label>
+                <a href="#" class="">Iniciar Sesión</a>
+              </li>
+              <li>
+                <label for="2" class="show"><a href="#">Contacto</a></label>
+                <a href="#" class="">Contacto</a>
+              </li>
+        </ul>
+    </nav>
+    <section id="seccion1">
+
+    </section>
+    <section id="seccion2">
+        <div class="informacion">
+            <h1 class="heading">REAL MADRID</h1>
+            <img src="./img/real-removebg-preview.png">
+            <!-- <audio src="./audio/Hala Madrid ... y nada más.mp3" preload controls loop>Este explorador no soporta HTML5</audio>  -->
+        </div>
+
+        <div class="rel">
+            <div class="galeria">
+                <img src="./img/Madrid/1.jpg" alt="Cr7">
+            </div>
+            <div class="galeria">
+                <img src="./img/Madrid/2.jpg" alt="Cr7">
+            </div>
+            <div class="galeria">
+                <img src="./img/Madrid/3.jpeg" alt="Cr7">
+            </div>
+            <div class="galeria">
+                <img src="./img/Madrid/4.jpeg" alt="Cr7">
+            </div>
+            <div class="galeria">
+                <img src="./img/Madrid/5.jpg" alt="Cr7">
+            </div>
+            <div class="galeria">
+                <img src="./img/Madrid/6.jpg" alt="Cr7">
+            </div>
+            <div class="galeria">
+                <img src="./img/Madrid/7.jpg" alt="Cr7">
+            </div>
+            <div class="galeria">
+                <img src="./img/Madrid/8.jpg" alt="Cr7">
+            </div>
+            <div class="galeria">
+                <img src="./img/Madrid/9.jpeg" alt="Cr7">
+            </div>
+            <div class="galeria">
+                <img src="./img/Madrid/10.jpeg" alt="Cr7">
+            </div>
+            <div class="galeria">
+                <img src="./img/Madrid/11.jpg" alt="Cr7">
+            </div>
+            <div class="galeria">
+                <img src="./img/Madrid/12.jpg" alt="Cr7">
+            </div>
+        </div>
+
+        <h1 class="heading">Mejores Goles</h1>
+
+        <div class="rel">
+            <div class="galeria">
+                <video controls poster="./img/Madrid/miniatura.jpg">
+                    <source src="./img/CR7.mp4" type="video/mp4">
+                    Tu navegador no soporta la etiqueta de video.
+                </video>
+            </div>
+            <div class="galeria">
+                <video controls poster="./img/Madrid/miniatura2.jpg">
+                    <source src="./img/CR7.mp4" type="video/mp4">
+                    Tu navegador no soporta la etiqueta de video.
+                </video>
+            </div>
+            <div class="galeria">
+                <video controls poster="./img/Madrid/miniatura3.jpeg">
+                    <source src="./img/CR7.mp4" type="video/mp4">
+                    Tu navegador no soporta la etiqueta de video.
+                </video>
+            </div>
+        </div>
+        <audio autoplay loop id="audio">
+            <source src="./audio/Hala Madrid ... y nada más.mp3" type="audio/mpeg">
+            Tu navegador no es compatible con HTML
+        </audio>
+    </section>
+    <!--Footer-->
+    <footer>
+        <div id="footer">
+            <p class="footer">Universidad Don Bosco 2024. Realizado por Elmer Curz y Adán Ruano</p>
+        </div>
+    </footer>
+    <script>
+        function PlayAdio() {
+            document.getElementById("audio").play();
+        }
+    </script>
+</body>
+
+</html>
